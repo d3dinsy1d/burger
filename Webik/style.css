@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapi s.com/css2?family=Roboto:wght@400;500 &display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1C1C1C;
+    color: #FFFF;
+    margin: 0px;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+.container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    letter-spacing: 0.1px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+
+
+    width: 165px;
+    height: 50px;
+
+    background-color: #F6762C;
+    border-radius: 9px;
+}
+
+.btn:hover {
+    background-color: #1C1C1C;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8s;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.header__nav a {
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.9s;
+}
+
+.header__nav a.active {
+    opacity: 1;
+}
+
+.header__nav a.btn:hover {
+    opacity: 0.9s;
+}
+
+
+.main {}
+
+.welcome {
+    min-height: 53vh;
+
+    margin-top: -100px;
+    padding: 60px 0;
+
+    background-image: url("./img/welcome-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome__text {
+    width: 550px;
+}
+
+.welcome__subtitle {
+    margin-bottom: 7px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.welcome__title {
+    font-size: 58px;
+}
+
+.welcome__desc {
+    margin: 40px 0;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.food-list .container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.food-list__card {
+    width: 260px;
+    background-color: #333333;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.food-list__img {
+    height: 175px;
+    max-width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.food-list__title {
+    padding-top: 11px;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.food-list__desc {
+    width: 90%;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.burger-king__card .container {
+    background-color: #333333;
+    display: grid;
+    letter-spacing: 0.2ex;
+}
+
+
+
+.burger-king__title {
+    font-size: 43px;
+    font-weight: 600;
+
+    margin-left: 700px;
+    margin-top: -320px;
+}
+
+.Burger-king__desc {
+    font-size: 16px;
+    opacity: 1;
+
+    margin-left: 700px;
+    margin-top: -220px;
+}
+
+.Burger-king__prices {
+    font-size: 20px;
+    color: #F6762C;
+
+    margin-left: 700px;
+    margin-top: -160px;
+}
+
+.burger-king__card .btn {
+    margin-top: 200px;
+
+    margin-left: 700px;
+    margin-top: -120px;
+}
+
+.burger-king__card {
+    background-color: #333333;
+}
+
+.card-max .container {
+    display: flex;
+    max-width: 1140px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+
+
+.card-max .product_queen {
+    background-image: url(./img/product-1.jpg);
+    background-repeat: no-repeat;
+    width: 555px;
+    height: 300px;
+}
+
+.card-max .product_queen .card-max__title {
+    position: absolute;
+
+    padding-left: 280px;
+    padding-top: 50px;
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-max .product_queen .card-max__desc {
+    position: absolute;
+    max-width: 15%;
+
+    padding-left: 280px;
+    padding-top: 100px;
+
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.card-max .product_queen .card-max__prices {
+    position: absolute;
+    color: #F6762C;
+
+    padding-left: 280px;
+    padding-top: 165px;
+
+}
+
+.card-max .product_queen .btn {
+    margin-left: 280px;
+    margin-top: 220px;
+}
+
+
+.card-max .product_pizza-hut {
+    background-image: url(./img/product-2.jpg);
+    background-repeat: no-repeat;
+    width: 555px;
+    height: 300px;
+}
+
+.card-max .product_pizza-hut .card-max__title {
+    position: absolute;
+
+    padding-left: 40px;
+    padding-top: 50px;
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-max .product_pizza-hut .card-max__desc {
+    position: absolute;
+    max-width: 17%;
+
+    padding-left: 40px;
+    padding-top: 100px;
+
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.card-max .product_pizza-hut .card-max__prices {
+    position: absolute;
+    color: #F6762C;
+
+    padding-left: 40px;
+    padding-top: 165px;
+
+}
+
+.card-max .product_pizza-hut .btn {
+    margin-left: 40px;
+    margin-top: 220px;
+}
+
+
+.card-max .product_burger {
+    background-image: url(./img/product-3.jpg);
+    background-repeat: no-repeat;
+    width: 555px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.card-max .product_burger .card-max__title {
+    position: absolute;
+
+    padding-left: 280px;
+    padding-top: 50px;
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-max .product_burger .card-max__desc {
+    position: absolute;
+    max-width: 17%;
+
+    padding-left: 280px;
+    padding-top: 100px;
+
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.card-max .product_burger .card-max__prices {
+    position: absolute;
+    color: #F6762C;
+
+    padding-left: 280px;
+    padding-top: 165px;
+
+}
+
+.card-max .product_burger .btn {
+    margin-left: 280px;
+    margin-top: 220px;
+}
+
+
+
+.card-max .product_papa {
+    background-image: url(./img/product-4.jpg);
+    background-repeat: no-repeat;
+    width: 555px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.card-max .product_papa .card-max__title {
+    position: absolute;
+
+    padding-left: 40px;
+    padding-top: 50px;
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-max .product_papa .card-max__desc {
+    position: absolute;
+    max-width: 17%;
+
+    padding-left: 40px;
+    padding-top: 100px;
+
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.card-max .product_papa .card-max__prices {
+    position: absolute;
+    color: #F6762C;
+
+    padding-left: 40px;
+    padding-top: 165px;
+
+}
+
+.card-max .product_papa .btn {
+    margin-left: 40px;
+    margin-top: 220px;
+}
+
+.download {
+    background-color: #333333;
+    height: 170px;
+}
+
+.download .container {
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+.download__title {
+    padding-top: 35px;
+    padding-left: 500px;
+
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.download .btn {
+    margin-left: 1300px;
+    margin-top: -47px;
+}
+
+.container {}
+
+.footer-contacts {}
+
+.footer-contacts__logo-contacts {
+    position: absolute;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.footer-contacts__email {
+    margin-left: 18px;
+}
+
+.footer-contacts__com {
+    margin-left: 18px;
+}
+
+.footer-contacts__logo-contacts__img-com {
+    position: absolute;
+    margin-top: 5px;
+}
+
+.footer-contacts__logo-contacts__img-mail {
+    position: absolute;
+    margin-top: 68px;
+    margin-left: -53px;
+}
+
+.footer-contacts__our-menu {
+    position: absolute;
+
+    margin-left: 350px;
+    margin-top: 75px;
+}
+
+.footer-contacts__our {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-contacts__information {
+    position: absolute;
+
+    margin-left: 600px;
+    margin-top: 89px;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-contacts__about {
+    position: absolute;
+
+    margin-top: 70px;
+    line-height: 4;
+}
+
+.footer-contacts__our-information-title {
+    position: absolute;
+
+    margin-left: 600px;
+    margin-top: 103px;
+}
+
+
+.footer-contacts__our-useful-title {
+    position: absolute;
+
+    margin-left: 850px;
+    margin-top: 105px;
+}
+
+.footer-contacts__useful {
+    position: absolute;
+
+    margin-left: 850px;
+    margin-top: 89px;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-contacts__sosial-handles {
+    position: absolute;
+
+    margin-top: 93px;
+    margin-left: 1050px
+}
+
+
+
+@media (max-width: 1500px) {
+    .download .btn {
+        margin-left: 800px;
+    }
+
+    .download__title {
+        margin-left: -300px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .card-max .container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card-max .product_queen {
+        margin-top: -10px;
+    }
+
+    .footer-contacts__our-useful-title {
+        position: absolute;
+
+        margin-left: 657px;
+        margin-top: 105px;
+    }
+
+    .footer-contacts__useful {
+        position: absolute;
+
+        margin-left: 657px;
+        margin-top: 89px;
+    }
+
+    .footer-contacts__our-menu {
+        position: absolute;
+
+        margin-left: 350px;
+        margin-top: 75px;
+    }
+
+    .footer-contacts__our-information-title {
+        margin-left: 500px;
+    }
+
+    .footer-contacts__information {
+        margin-left: 500px;
+    }
+
+    .footer-contacts__about {
+        position: absolute;
+        margin-top: 64px;
+        line-height: 4;
+        margin-left: -1px;
+    }
+}
+
+
+@media (max-width: 1060px) {
+    .Burger-king__desc {
+        max-width: 50%;
+    }
+
+    .burger-king__card .btn {
+
+        margin-top: -50px;
+        padding-top: -10px;
+    }
+
+    .Burger-king__prices {
+        position: absolute;
+
+        margin-top: 327px;
+    }
+
+    .download .btn {
+        margin-left: 600px;
+    }
+
+    .download__title {
+        margin-left: -400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .burger-king__title {
+        margin-top: 9px;
+        margin-left: 222px;
+    }
+
+    .Burger-king__desc {
+        margin-top: 15px;
+        margin-left: 182px;
+    }
+
+    .Burger-king__prices {
+        margin-top: 556px;
+        margin-left: 322px;
+    }
+
+    .burger-king__card .btn {
+        margin-top: 33px;
+        margin-left: 260px;
+    }
+
+    .burger-king__card__img {
+        margin-left: 120px;
+    }
+
+    .food-list .container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 790px) {
+    .download .btn {
+        margin-left: 483px;
+    }
+
+    .footer-contacts__our-menu {
+        margin-left: 277px;
+    }
+
+    .footer-contacts__our-information-title {
+        margin-left: 378px;
+    }
+
+    .footer-contacts__information {
+        margin-left: 378px;
+    }
+
+    .footer-contacts__about {
+        margin-top: 68px;
+    }
+
+    .footer-contacts__our-useful-title {
+        margin-left: 486px;
+        margin-top: 110px;
+    }
+
+    .footer-contacts__useful {
+        margin-left: 486px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .welcome {
+        padding: 45px 0;
+    }
+
+    .welcome__subtitle {
+        margin-bottom: 7px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        position: absolute;
+        display: grid;
+        margin-top: -310px;
+    }
+
+    .welcome__title {
+        font-size: 29px;
+        max-width: 100%;
+        display: grid;
+        position: absolute;
+        margin-top: -290px;
+    }
+
+    .welcome__desc {
+        font-size: 16px;
+        max-width: 90%;
+        margin-top: -170px;
+        position: absolute;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .welcome .btn {
+        margin-top: 460px;
+
+    }
+
+    .food-list__card {
+        width: 330px;
+    }
+
+    .food-list__img {
+        width: 100%;
+    }
+
+    .food-list .container {
+        padding: 27px 0px;
+
+    }
+
+    .welcome__subtitle {
+        display: none;
+    }
+
+    .burger-king__card__img {
+        max-width: 60%;
+        margin-left: 38px;
+
+    }
+
+    .burger-king__title {
+        margin-left: 40px;
+        margin-top: -50px;
+
+    }
+
+    .Burger-king__desc {
+        margin-left: 40px;
+        max-width: 70%;
+        margin-top: -60px;
+    }
+
+    .burger-king__card .container {
+        height: 450px;
+    }
+
+    .burger-king__card .btn {
+        margin-top: 380px;
+        margin-left: 40px;
+        position: absolute;
+    }
+
+    .Burger-king__prices {
+        margin-top: 355px;
+        margin-left: 40px;
+        position: absolute;
+    }
+
+    .card-max .product_queen {                                           
+        max-width: 90%;
+        border-radius: 10px;
+    }
+
+    .card-max .product_queen .card-max__desc {
+        max-width: 80%;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .card-max .product_queen .card-max__title {
+        padding-left: 10px;
+        padding-top: 80px;
+    }
+
+    .card-max .product_queen .card-max__prices {
+        padding-left: 10px;
+        padding-top: 180px;
+    }
+
+    .card-max .product_queen .btn {
+        margin-left: 10px;
+        margin-top: 230px;
+    }
+    .card-max .product_pizza-hut {
+        max-width: 90%;
+        border-radius: 10px;
+    }
+
+    .card-max .product_pizza-hut .card-max__desc {
+        max-width: 80%;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .card-max .product_pizza-hut .card-max__title {
+        padding-left: 10px;
+        padding-top: 80px;
+    }
+
+    .card-max .product_pizza-hut .card-max__prices {
+        padding-left: 10px;
+        padding-top: 180px;
+    }
+
+    .card-max .product_pizza-hut .btn { 
+        margin-left: 10px;
+        margin-top: 230px;
+    }
+    .card-max .product_burger {                                           
+        max-width: 90%;
+        border-radius: 10px;
+    }
+
+    .card-max .product_burger .card-max__desc {
+        max-width: 80%;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .card-max .product_burger .card-max__title {
+        padding-left: 10px;
+        padding-top: 80px;
+    }
+
+    .card-max .product_burger .card-max__prices {
+        padding-left: 10px;
+        padding-top: 180px;
+    }
+
+    .card-max .product_burger .btn {
+        margin-left: 10px;
+        margin-top: 230px;
+    }  
+    .card-max .product_papa {                                           
+        max-width: 90%;
+        border-radius: 10px;
+    }
+
+    .card-max .product_papa .card-max__desc {
+        max-width: 80%;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .card-max .product_papa .card-max__title {
+        padding-left: 10px;
+        padding-top: 80px;
+    }
+
+    .card-max .product_papa .card-max__prices {
+        padding-left: 10px;
+        padding-top: 180px;
+    }
+
+    .card-max .product_papa .btn {
+        margin-left: 10px;
+        margin-top: 230px;
+    }
+    .download__title {
+        margin-left: -485px;
+        font-size: 36px;
+        margin-top: -40px;
+    }
+    .download .btn {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+.footer-contacts__our-menu {
+    margin-left: 29px;
+    margin-top: 210px;
+    position: absolute;;
+    }
+    .footer-contacts__information {
+        margin-left: 200px;
+        margin-top: 225px;
+    }
+    .footer-contacts__about {
+        margin-top: 60px;
+    }
+    .footer-contacts__our-information-title {
+        margin-left: 200px;
+        margin-top: 243px;
+    }
+    .footer-contacts__logo-contacts {
+        margin-top: 20px;
+    }
+    }
